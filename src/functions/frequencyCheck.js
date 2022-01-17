@@ -1,3 +1,5 @@
+import rollDie from "./rollDie.js";
+
 export default function frequencyCheck(monster) {
 
 	const freqMap = {
@@ -9,7 +11,7 @@ export default function frequencyCheck(monster) {
 
 	const targetNumber = freqMap[monster.FR]
 
-	const d20Roll = Math.floor(Math.random() * 20)
+	const d20Roll = rollDie(20)
 
 	return d20Roll <= targetNumber
 

@@ -8,7 +8,7 @@ export default function createEnvironmentalMonstersList(env) {
 
 	} else {
 
-		return monsterList.filter(m => m.EN.includes(env))
+		return monsterList.filter(m => m.EN.includes(env) || m.EN.includes("Any"))
 
 	}
 	

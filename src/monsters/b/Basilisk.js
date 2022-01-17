@@ -18,11 +18,12 @@ export default new Monster({
 	MV: "6",
 	NA: "1",
 	NO: "",
-	SA: "Petrifying Gaze (fatal on Astral plane, ethereal stone on Ethereal plane)",
-	SD: "",
-	SE: "Astral and Ethereal Planes",
-	SV: "Can Petrify itself via reflection.",
+	SA: ["Petrifying Gaze (fatal on Astral plane, ethereal stone on Ethereal plane)"],
+	SD: [],
+	SE: ["Astral and Ethereal Planes"],
+	SV: ["Can Petrify itself via reflection."],
 	SZ: "M (7ft)",
-	TR: "F",
+	TR: {},
+	TT: "F",
 	WP: []
 })

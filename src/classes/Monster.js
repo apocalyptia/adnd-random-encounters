@@ -18,12 +18,13 @@ export default class Monster {
 		MV = "",
 		NA = "",
 		NO = "",
-		SA = "",
-		SD = "",
-		SE = "",
-		SV = "",
+		SA = [],
+		SD = [],
+		SE = [],
+		SV = [],
 		SZ = "",
-		TR = "",
+		TR = {},
+		TT = "",
 		WP = []
 	}) {
 		this.name = name
@@ -49,6 +50,7 @@ export default class Monster {
 		this.SV = SV
 		this.SZ = SZ
 		this.TR = TR
+		this.TT = TT
 		this.WP = WP
 	}
 

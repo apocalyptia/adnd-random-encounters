@@ -1,13 +1,5 @@
-<script>
-	import RandomEncounterForm from "../components/RandomEncounterForm.svelte"
-	import RandomEncounterList from "../components/RandomEncounterList.svelte"
-	import encounterStore from "../stores/encounterStore.js"
-</script>
-
-
 <page>
-	<RandomEncounterForm />
-	<RandomEncounterList />
+	<a href="./randomencounter">Random Encounter Generator</a>
 </page>
 
 
@@ -16,7 +8,8 @@
 		align-items: center;
 		display: flex;
 		flex-direction: column;
+		height: 100vh;
 		justify-content: space-around;
-		width: 100%;
+		width: 100vw;
 	}
 </style>
